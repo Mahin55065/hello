@@ -1,0 +1,144 @@
+body {
+    margin:0;
+    text-align:center;
+}
+
+
+.top-container {
+    background-color:#E5F4E7;
+    position:relative;
+    padding-top:100px;
+    background-image:
+}
+h1 {
+    margin-top:0px;
+    font-family:'Dancing Script', cursive;
+    /*r-root on em*/
+    font-size:2.8125rem;
+    color:green;
+}
+h2 {
+    font-family:'Josefin Sans', sans-serif;
+    font-size:1.8rem;
+    font-weight:normal;
+    color:green;
+}
+h3 {
+    font-family:'Roboto', sans-serif;
+    color:#99CDA9;
+}
+p {
+    font-family:'Josefin Sans', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
+}
+.top-cloud {
+    position:absolute;
+    right:550px;
+    bottom:475px;
+}
+.bottom-cloud {
+    position:absolute;
+    bottom:275px;
+    left:600px;
+}
+.middle-container {
+
+}
+.bottom-container {
+    background-color:#D1E9D2;
+    padding:50px;
+}
+a {
+    color:green;
+}
+.skill-row {
+    width:50%;
+    margin:100px auto 100px auto;
+    text-align:left;
+    line-height:2;
+}
+.skill-row-image-1 {
+    width:20%;
+    float:left;
+    margin-right:30px;
+}
+.skill-row-image-2 {
+    width:17%;
+    float:right;
+    margin-left:30px;
+}
+hr {
+    border-style:none;
+    border-top:7px dotted;
+    width:5%;
+    border-color:#D1E9D2;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+.contact-me {
+    margin-top:100px;
+}
+.contact-me-paragraph {
+    width:50%;
+    margin:auto;
+    margin-bottom:100px;
+}
+.profile-picture-image {
+    width:10%;
+}
+.contact-me {
+    margin-bottom:50px;
+}
+.footer-link {
+    color:green;
+}
+.btn {
+  background: #99CDA9;
+  background-image: -webkit-linear-gradient(top, #99CDA9, #D1E9D2);
+  background-image: -moz-linear-gradient(top, #99CDA9, #D1E9D2);
+  background-image: -ms-linear-gradient(top, #99CDA9, #D1E9D2);
+  background-image: -o-linear-gradient(top, #99CDA9, #D1E9D2);
+  background-image: linear-gradient(to bottom, #99CDA9, #D1E9D2);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #008000;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #D1E9D2;
+  background-image: -webkit-linear-gradient(top, #D1E9D2, #90ee90);
+  background-image: -moz-linear-gradient(top, #D1E9D2, #90ee90);
+  background-image: -ms-linear-gradient(top, #D1E9D2, #90ee90);
+  background-image: -o-linear-gradient(top, #D1E9D2, #90ee90);
+  background-image: linear-gradient(to bottom, #D1E9D2, #90ee90);
+  text-decoration: none;
+}
+/*To change the position of a text or an object in html, you may use position: relative or absolute postion; \n left:30px; << move the object 30px to the right relative to it's current
+position.
+ex: <body>a</body>
+The example below would move object a to right 30px from it's current position.
+ex: a {
+    position:relative;
+    left:30px;
+}
+Absolute position is relative to the parent object ex: <body>a</body>
+Relative position is relative to it's current position.
+The example below would move the a object 30px to right. From the body
+ex:a {
+    position:absolute;
+    left 30px;
+}
+Fixed positon keeps the object at it's current position even if the page is scrolled.
+ex: a {
+    position:fixed;
+}
+Three types of display options. block, inline, inline-block. block - takes the whole width and height(it;s the defualt), inline - puts objects next to each other.
+(cannot adjust the width), inline-block - combines the block and inline-block(width can be adjusted)
+ex: a {
+    display:block;
+}
